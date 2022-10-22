@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  
+    <!-- 
+  <servlet>
+  <servlet-name>abc</servlet-name>
+  <servlet-class>com.telusko.AddServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+   <servlet-name>abc</servlet-name>
+   <url-pattern>/add</url-pattern>
+  </servlet-mapping>                       
+  
+   
+   <servlet>
+  	<servlet-name>pqr</servlet-name>
+  	<servlet-class>com.telusko.SqServlet</servlet-class>
+      <init-param>                                                 ServletConfig [using init-param]; They are available only to a single servlet
+      <param-name>name</param-name>  
+      <param-value>sukesh</param-value> 
+      </init-param>              			    			       We use them inside a servlet tag
+  </servlet>			   
+  
+  
+  <servlet-mapping>
+  <servlet-name>pqr</servlet-name>
+  <url-pattern>/sq</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <servlet>
+  	<servlet-name>abcd</servlet-name>
+  	<servlet-class>com.telusko.MyServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>abcd</servlet-name>
+  	<url-pattern>/home</url-pattern>
+  </servlet-mapping>                      
+  
+  
+  
+  <context-param>                                          Context parameters from ServletContext; They are available to all servlets 
+  	<param-name>name</param-name>
+  	<param-value>naveen</param-value>
+  </context-param>
+  
+  <context-param>
+  	<param-name>phone</param-name>
+  	<param-value>samsung</param-value>
+  </context-param>
+  
+  -->
+  
+</web-app>
